@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página Pessoal</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #FFC107;
+            color: #000;
+        }
+        .pagina {
+            display: flex;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        .secao-esquerda {
+            flex: 1;
+            padding-right: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .secao-esquerda img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 3px solid #000;
+            margin-bottom: 20px;
+            object-fit: cover;
+        }
+        .secao-direita {
+            flex: 2;
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            border-bottom: 3px solid #000;
+            display: inline-block;
+        }
+        h2 {
+            font-size: 2em;
+            margin-top: 20px;
+            text-transform: uppercase;
+        }
+        p {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+        .secao-jogos {
+            margin-top: 30px;
+        }
+        .jogo {
+            margin-bottom: 20px;
+        }
+        .conteudo-jogo {
+            background-color: #fff;
+            border: 3px solid #000;
+            border-radius: 10px;
+            padding: 10px;
+            margin-top: 10px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        .conteudo-jogo img {
+            width: 250px;
+            margin-right: 20px;
+            border-radius: 5px;
+        }
+        .texto-jogo {
+            flex: 1;
+        }
+        .texto-jogo h3 {
+            margin: 0;
+            font-size: 1.5em;
+            text-transform: uppercase;
+        }
+        .texto-jogo p {
+            margin: 5px 0 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="pagina">
+        <div class="secao-esquerda">
+            <img src="C:\Users\gui05\OneDrive\Documentos\Documentos\FOTO.jpg" alt="Minha Foto Normal">
+        </div>
+        <div class="secao-direita">
+            <h1>Sobre mim</h1>
+            <p>Olá, me chamo Guilherme, estou indo para o segundo período de Sistemas de Informação. Decidi criar este espaço para compartilhar três jogos que guardo no coração — como forma de universalizar o bom gosto! Desde criança, fui apaixonado por jogos, cada um com sua particularidade e universo, então já pisei em muitas terras. Te convido a enxergar os jogos como uma arte única: eles criam mundos, provocam emoções e contam histórias de formas que nenhuma outra mídia consegue replicar. Diferente de um filme, um livro ou uma pintura, os jogos nos convidam à experiência crua — nos colocam dentro da história. Eles são a prova viva de que a arte pode ser sentida na pele, e não apenas contemplada à distância.
+                A seleção que preparei aqui é especial: são jogos para te fazer chorar. Daqueles que não só emocionam, mas deixam marcas. Prepare-se para algumas das experiências mais tocantes que a arte dos games tem a oferecer.</p>
+            <div class="secao-jogos">
+                <h2>Meus jogos selecionados (e protegidos)</h2>
+                <div class="jogo">
+                    <div class="conteudo-jogo">
+                        <img src="C:\Users\gui05\Desktop\Citi\Dev\images\space.jpg" alt="Ícone do Jogo 1">
+                        <div class="texto-jogo">
+                            <h3>A Space for the Unbound</h3>
+                            <p>A Space for the Unbound é um jogo indonésio, ambientado no final dos anos 90 em uma pequena cidade rural. Você acompanha Atma e Raya, dois estudantes do ensino médio que descobrem que Raya possui poderes sobrenaturais, enquanto eventos estranhos começam a distorcer a realidade ao seu redor. À medida que explora fragmentos de lembranças e enfrenta traumas não resolvidos, A Space for the Unbound mergulha em temas de ansiedade, depressão e superação sem recorrer a sensacionalismo. Se você ama gatinhos e a estética dos anos 90, este jogo é para você!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="jogo">
+                    <div class="conteudo-jogo">
+                        <img src="C:\Users\gui05\Desktop\Citi\Dev\images\before_your_eyes.jpg" alt="Ícone do Jogo 2">
+                        <div class="texto-jogo">
+                            <h3>Before Your Eyes</h3>
+                            <p>Before Your Eyes é um jogo norte-americano que traz uma aventura narrativa inovadora, em que a mecânica de controle por piscadas transporta o jogador pelas memórias de Benjamin, enquanto ele relembra sua vida. A cada piscar, a história avança, criando uma sensação tangível da passagem do tempo e lembrando que nossos momentos mais preciosos podem escapar num instante. O enredo explora o conflito entre o desejo de contar uma vida idealizada e a necessidade de confrontar a verdade dolorosa, tocando temas universais como arrependimento e perdão. Garanto que você vai piscar muito... principalmente para enxugar as lágrimas!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="jogo">
+                    <div class="conteudo-jogo">
+                        <img src="C:\Users\gui05\Desktop\Citi\Dev\images\until_then.jpg" alt="ícone_jogo_3">
+                        <div class="texto-jogo">
+                            <h3>Until Then</h3>
+                            <p>Until Then é um jogo filipino que apresenta a jornada íntima de Mark Borja e seus amigos num mundo abalado por um misterioso cataclismo que distorce memórias e provoca desaparecimentos inexplicáveis. Mesclando visual novel e aventura, o jogo oferece minijogos que vão de cantar no videoke a preparar petiscos filipinos e interagir em redes sociais fictícias — tudo para criar uma imersão tão rica quanto o cotidiano de uma metrópole tropical. À medida que você desvenda fragmentos de lembranças e reconstrói laços com personagens autênticos, Until Then mergulha em temas universais como perda, saudade e resiliência. Recomendo fortemente para quem, assim como eu, é apaixonado por um piano devastadoramente bonito e quer conhecer melhor os nossos primos asiáticos: os filiprimos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
